@@ -1,0 +1,7 @@
+## Interface: 90005
+## Title: Valor Tooltips
+## Author: Jeremy Sayers
+## Version: 1.0
+
+dataTables.lua
+main.lua
