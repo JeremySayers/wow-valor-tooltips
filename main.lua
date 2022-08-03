@@ -30,7 +30,7 @@ function ValorToolTips:OnLoad()
                         frame:AddLine("|cFF00FFFFValor Upgrade Info|r")
 
                         if priceTo252 > 0 then
-                            frame:AddLine(string.format("|cFF00FFFFItem Level 252: %d|r", priceTo252))
+                            frame:AddLine(string.format("|cFF00FFFFItem Level 278: %d|r", priceTo252))
                         end
 
                         local ratingNote = ""
@@ -41,7 +41,7 @@ function ValorToolTips:OnLoad()
                                 color = "|cffffcf40"
                                 ratingNote = "(Need 600 M+ Rating)"
                             end
-                            frame:AddLine(string.format("%sItem Level 255: %d %s|r", color, priceTo255, ratingNote))
+                            frame:AddLine(string.format("%sItem Level 281: %d %s|r", color, priceTo255, ratingNote))
                         end
 
                         if priceTo259 > 0 then
@@ -50,7 +50,7 @@ function ValorToolTips:OnLoad()
                                 color = "|cffffcf40"
                                 ratingNote = "(Need 1000 M+ Rating)"
                             end
-                            frame:AddLine(string.format("%sItem Level 259: %d %s|r", color, priceTo259, ratingNote))
+                            frame:AddLine(string.format("%sItem Level 285: %d %s|r", color, priceTo259, ratingNote))
                         end
                         
                         if priceTo262 > 0 then
@@ -59,7 +59,7 @@ function ValorToolTips:OnLoad()
                                 color = "|cffffcf40"
                                 ratingNote = "(Need 1200 M+ Rating)"
                             end
-                            frame:AddLine(string.format("%sItem Level 262: %d %s|r", color, priceTo262, ratingNote))
+                            frame:AddLine(string.format("%sItem Level 288: %d %s|r", color, priceTo262, ratingNote))
                         end   
 
                         if priceTo265 > 0 then
@@ -68,7 +68,7 @@ function ValorToolTips:OnLoad()
                                 color = "|cffffcf40"
                                 ratingNote = "(Need 1400 M+ Rating)"
                             end
-                            frame:AddLine(string.format("%sItem Level 265: %d %s|r", color, priceTo265, ratingNote))
+                            frame:AddLine(string.format("%sItem Level 291: %d %s|r", color, priceTo265, ratingNote))
                         end   
 
                         if priceTo268 > 0 then
@@ -77,7 +77,7 @@ function ValorToolTips:OnLoad()
                                 color = "|cffffcf40"
                                 ratingNote = "(Need 1700 M+ Rating)"
                             end
-                            frame:AddLine(string.format("%sItem Level 268: %d %s|r", color, priceTo268, ratingNote))
+                            frame:AddLine(string.format("%sItem Level 294: %d %s|r", color, priceTo268, ratingNote))
                         end
 
                         if priceTo272 > 0 then
@@ -86,7 +86,7 @@ function ValorToolTips:OnLoad()
                                 color = "|cffffcf40"
                                 ratingNote = "(Need 2000 M+ Rating)"
                             end
-                            frame:AddLine(string.format("%sItem Level 272: %d %s|r", color, priceTo272, ratingNote))
+                            frame:AddLine(string.format("%sItem Level 298: %d %s|r", color, priceTo272, ratingNote))
                         end 
                     end
                 end
